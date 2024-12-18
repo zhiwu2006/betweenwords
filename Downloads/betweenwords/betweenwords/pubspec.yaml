@@ -1,0 +1,34 @@
+name: betweenwords
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.5.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.8
+  provider: ^6.0.1
+  flutter_tts: ^3.8.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+  flutter_svg: ^2.0.9
+  flutter_screenutil: ^5.9.0
+  get: ^4.6.6
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  shimmer: ^3.0.0
+  material_design_icons_flutter: ^7.0.7296
+
+flutter:
+  assets:
+    - assets/words.json
+    # - assets/icons/
+    # 或者单独列出每个图标
+    # - assets/icons/word.png
+    # - assets/icons/category.svg
+    # - assets/icons/translate.svg 
